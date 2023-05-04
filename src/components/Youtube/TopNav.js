@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../Navbar'
 
 const TopNav = () => {
   return (
-    <div>
-        <h1>This is the top nav</h1>
-    </div>
+    <>
+      <Navbar user="Daniel" />
+      <Navbar user="Samuel" />
+      <Navbar />
+    </>
   )
 }
 

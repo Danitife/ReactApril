@@ -19,7 +19,9 @@ root.render(
       <TopNav />
       <div className='d-flex'>
         <SideNav />
-        <App />
+        <div>
+          <App />
+        </div>
       </div>
       
     </BrowserRouter>
