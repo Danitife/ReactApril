@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "You",
+      "title": "Food",
+      "body": "I like food I like food I like food I like food I like food I like food "
+    },
+    {
+      "id": 3,
+      "author": "You",
+      "title": "Food",
+      "body": "I like food I like food I like food I like food I like food I like food "
+    },
+    {
+      "author": "wer",
+      "title": "qw",
+      "body": "ered",
+      "id": 7
+    }
+  ]
+}
