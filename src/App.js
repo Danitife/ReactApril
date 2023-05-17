@@ -11,6 +11,7 @@ import StateHook from './components/TodayState/StateHook';
 import AllInfo from './components/TodayState/AllInfo';
 import Landing from './components/CustomHooks/Landing';
 import ShowOne from './components/CustomHooks/ShowOne';
+import Signup from './components/Forms/Signup';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/state_hook' element={<StateHook />} />
         <Route path='/all_things' element={<AllInfo />} />
         <Route path='/landing' element={<Landing />} />
+        <Route path='/signup' element={<Signup />} />
         <Route path='/show_one/:id' element={<ShowOne />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
